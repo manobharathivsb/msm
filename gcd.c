@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main(void)
 {
-	int a,b,c,i,d;
+	int a,b,i,d;
 	scanf("%d%d",&a,&b);
-	scanf("%d",&c);
 	{
-		for(i=0;i<=c;i++)
+		for(i=0;i<=10;i++)
 		{
-		if((a%i==0)&&(b%i==0))
+		if(a%i==0 && b%i==0)
 		{
 			d=i;
 		}
-		printf("%d",i);
+		printf("%d",d);
 		}
 		return 0;
 	}
